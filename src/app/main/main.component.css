@@ -1,0 +1,41 @@
+.main_grid_div{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.left_grid_div{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-left: 200px;
+    column-gap: 18px;
+}
+
+.spiderman_div{
+    border: 1px solid #DBDBDB;   
+    height: 220px;
+    width:150px;
+    border-width: 0.10rem;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.spiderman_strength_div{
+    font-size: 2rem;   
+}
+
+.centre_grid_div{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+#score_div{
+    font-size: 3rem;   
+    text-align: center;
+}
+
+.right_grid_div{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 18px;
+    margin-right: 200px;
+}
